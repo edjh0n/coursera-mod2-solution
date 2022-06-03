@@ -8,7 +8,6 @@ h1 {
 }
 
 .outer-box {
-    border: 1px solid green;
     margin: 0;
 }
 
@@ -26,10 +25,7 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 15px;
-}
-
-.title {
-  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .col-1 {
@@ -55,7 +51,7 @@ p {
     left: 18px;
     width: auto;
     text-align: center;
-    padding: 5px 23px;
+    padding: 5px 25px;
 }
 
 .col-3 {
@@ -73,6 +69,9 @@ p {
 
 span {
     padding: 5px 10px 5px 10px;
+    font-size: 130%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 /********** Large devices only **********/
