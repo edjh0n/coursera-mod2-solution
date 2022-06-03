@@ -28,34 +28,47 @@ p {
     padding-bottom: 15px;
 }
 
+.title {
+  
+}
+
 .col-1 {
     background-color: firebrick;
-    border: 3px solid black;    
+    border: 1px solid black;    
     float: right;
     position: relative;
     margin: 0;
     bottom: 43px;
     left: 18px;
+    width: auto;
+    text-align: center;
+    
 }
 
 .col-2 {
     background-color: blueviolet;
-    border: 3px solid black;
+    border: 1px solid black;
     float: right;
     position: relative;
     margin: 0;
     bottom: 43px;
     left: 18px;
+    width: auto;
+    text-align: center;
+    padding: 5px 23px;
 }
 
 .col-3 {
     background-color: brown;
-    border: 3px solid black;
+    border: 1px solid black;
     float: right;
     position: relative;
     margin: 0;
     bottom: 43px;
     left: 18px;
+    width: auto;
+    text-align: center;
+    padding: 5px 20px;
 }
 
 span {
@@ -146,6 +159,13 @@ span {
     .col-md-12 {
       width: 100%;
     }
+
+    .box-3 {
+      margin-left: 20px;
+      margin-right: 20px;
+      width: auto;
+    }
+
   }
 
   /********** Small devices only **********/
